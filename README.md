@@ -336,46 +336,54 @@ mvn test
 
 ---
 
+---
+
 ## API Screenshots (Postman Testing)
 
 ### 1. Admin Login — 200 OK
-![Admin Login](admin-login.png)
+![Admin Login](screenshots/admin-login.png)
 
 ### 2. Dashboard Summary
-![Dashboard](dashboard.png)
+![Dashboard](screenshots/dashboard.png)
 
 ### 3. GET All Records
-![Get Records](get-records.png)
+![Get Records](screenshots/get-records.png)
 
 ### 4. POST Create Record (Admin)
-![Create Record](create-record.png)
+![Create Record](screenshots/create-record.png)
 
-### 5. Viewer Login
-![Viewer Login](viewer-login.png)
+### 5. PUT Update Record (Admin)
+![Update Record](screenshots/put.png)
 
-### 6. Viewer GET Records — 200 OK ✅
-![Viewer Get Records](viewer-get-records.png)
+### 6. DELETE Record (Admin)
+![Delete Record](screenshots/delete.png)
 
-### 7. Viewer POST Records — 403 Forbidden ❌
-![Viewer 403 Create](viewer-403-create.png)
+### 7. Viewer Login
+![Viewer Login](screenshots/viewer-login.png)
 
-### 8. Viewer GET Analytics — 403 Forbidden ❌
-![Viewer 403 Analytics](viewer-403-analytics.png)
+### 8. Viewer GET Records — 200 OK ✅
+![Viewer Get Records](screenshots/viewer-get-records.png)
 
-### 9. Viewer GET Users — 403 Forbidden ❌
-![Viewer 403 Users](viewer-403-users.png)
+### 9. Viewer POST Records — 403 Forbidden ❌
+![Viewer 403 Create](screenshots/viewer-403-create.png)
 
-### 10. Analyst Login
-![Analyst Login](analyst-login.png)
+### 10. Viewer GET Analytics — 403 Forbidden ❌
+![Viewer 403 Analytics](screenshots/viewer-403-analytics.png)
 
-### 11. Analyst GET Analytics — 200 OK ✅
-![Analyst Analytics](analyst-analytics.png)
+### 11. Viewer GET Users — 403 Forbidden ❌
+![Viewer 403 Users](screenshots/viewer-403-users.png)
 
-### 12. Analyst POST Records — 403 Forbidden ❌
-![Analyst 403 Create](analyst-403-create.png)
+### 12. Analyst Login
+![Analyst Login](screenshots/analyst-login.png)
 
-### 13. Admin GET All Users
-![Admin Users](admin-users.png)
+### 13. Analyst GET Analytics — 200 OK ✅
+![Analyst Analytics](screenshots/analyst-analytics.png)
 
-### 14. Validation Error — 400 Bad Request
-![Validation Error](validation-error.png)
+### 14. Analyst POST Records — 403 Forbidden ❌
+![Analyst 403 Create](screenshots/analyst-403-create.png)
+
+### 15. Admin GET All Users
+![Admin Users](screenshots/admin-users.png)
+
+### 16. Validation Error — 400 Bad Request
+![Validation Error](screenshots/validation-error.png)
